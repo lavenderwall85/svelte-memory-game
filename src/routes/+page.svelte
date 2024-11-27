@@ -15,10 +15,10 @@
       const initialCards = [...cardValues, ...cardValues]
         .map(value => ({
           value,
-          id: Math.random(),      // ID único para cada carta
-          flipped: false          // Al inicio, todas las cartas están boca abajo
+          id: Math.random(),    
+          flipped: false          
         }))
-        .sort(() => Math.random() - 0.5);  // Mezclar las cartas
+        .sort(() => Math.random() - 0.5);  
   
       // Establecer el estado inicial
       cards.set(initialCards);
