@@ -43,7 +43,7 @@
   
         // Si hay dos cartas volteadas, verificar si son iguales
         if (flippedCards.length === 2) {
-          attempts.update(n => n + 1); // Aumentar el contador de intentos
+          attempts.update(n => n + 1); // 
   
           // Si las cartas coinciden, mantenerlas volteadas
           if (flippedCards[0].value === flippedCards[1].value) {
